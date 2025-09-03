@@ -54,3 +54,23 @@ yarn.lock
 # =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# Docker
+# =========================
+# Archivos temporales de contenedores y builds
+**/.docker/
+**/docker-compose.override.yml
+docker-compose.override.yml
+.dockerignore
+
+# Volúmenes y salidas generadas por Docker
+docker-volume/
+*.pid
+
+# Imagenes y capas creadas localmente (si se usan rutas relativas)
+**/docker/*.tar
+
+# Archivos de configuración sensibles o locales
+.env
+.env.*
