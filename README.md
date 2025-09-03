@@ -7,3 +7,4 @@ docker run -d -p 34000:6000 --name firstdockercontainer dockersparkprimer
 
 docker tag dockersparkprimer samuelprietor/arep-lab4-modularizacion
 docker push samuelprietor/arep-lab4-modularizacion
+docker run -d -p 42000:6000 --name firstdockerimageaws samuelprietor/arep-lab4-modularizacion
