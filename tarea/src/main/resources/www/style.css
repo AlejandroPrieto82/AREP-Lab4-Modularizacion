@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    transition: background 0.5s ease;
+    color: white;
+}
+
+/* Fondo por defecto */
+body {
+    background: url("img/Elefante.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.titulo {
+    color: #ff5722;
+}
+
+/* Temas */
+body.fiesta {
+    background: url("img/Fiesta.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.navidad {
+    background: url("img/Navidad.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.halloween {
+    background: url("img/Halloween.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #ff5722;
+    color: white;
+}
+
+h1, h2, p {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
