@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tarea
+    ports:
+      - "35000:35000"
+
